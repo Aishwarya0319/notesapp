@@ -1,15 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import reactLogo from "./assets/react.svg";
+import React from "react";
 
-function App(){
- return (
+function App() {
+  return (
     <div className="App">
-      <header className="App-header">
-        <img src={reactLogo} className="logo react" alt="React logo" />
-        <h1>Hello from Amplify</h1>
-      </header>
+      <h1>Hello from Amplify 🚀</h1>
     </div>
   );
 }
+
 export default App;
